@@ -1,0 +1,50 @@
+.row{
+margin: 8px - 16px;
+}
+
+.column{
+  float: left;
+  width: 25%
+}
+
+.row,
+.row > .column {
+padding: 8px;
+}
+
+.row:after {
+content: "" ;
+display: table;
+clear: both;
+}
+
+.content{
+background-color: inherit;
+padding: 10px;
+}
+
+.fixed-header, .fixed-footer{
+width: 100%;
+position: fixed;
+background: #4aaaa5;
+padding: 10px 0;
+color: #fff;
+
+}
+
+
+.fixed-header{
+top: 0;
+}
+
+.fixed-footer{
+bottom: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+
+}
